@@ -8,6 +8,7 @@ superscriptaddress,nofootinbib,showpacs,longbibliography]{revtex4-1}
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
 
+\usepackage{orcidlink}
 \usepackage{verbatim}
 
 \usepackage[dvipsnames, usenames]{xcolor}
@@ -76,26 +77,14 @@ pdfusetitle]{hyperref}
 
 \title{The greatest science}
 
-\newcommand{\AEI}{\affiliation{Max Planck Institute for Gravitational Physics
-(Albert Einstein Institute), D-14476 Potsdam, Germany}}
-\newcommand{\UMassD}{\affiliation{Department of Mathematics,
-    Center for Scientific Computing and Data Science Research,
-    University of Massachusetts, Dartmouth, MA 02747, USA}}
-\newcommand{\Cornell}{\affiliation{Cornell Center for Astrophysics
-    and Planetary Science, Cornell University, Ithaca, New York 14853, USA}}
-\newcommand\CornellPhys{\affiliation{Department of Physics, Cornell
-    University, Ithaca, New York 14853, USA}}
-\newcommand\Caltech{\affiliation{TAPIR 350-17, California Institute of
-    Technology, 1200 E California Boulevard, Pasadena, CA 91125, USA}}
-\newcommand\Olemiss{\affiliation{Department of Physics and Astronomy,
-    The University of Mississippi, University, MS 38677, USA}}
+\newcommand{\VSM}{\affiliation{Department of Physics, Vivekananda Satavarshiki Mahavidyalaya (affiliated to Vidyasagar University),\\ Manikpara 721513, West Bengal, India}}
 
-\author{Vijay Varma}
-\email{vvarma@umassd.edu}
-\UMassD
+\author{Md Arif Shaikh\,\orcidlink{0000-0003-0826-6164}}
+\email{arifshaikh.astro@gmail.com}
+\VSM
 
 % Because hyperref only gets the *last* author, we need to be explicit.
-\hypersetup{pdfauthor={Varma et al.}}
+\hypersetup{pdfauthor={Shaikh et al.}}
 
 \date{\today}
 
@@ -150,23 +139,8 @@ Here's what you should learn now that I done'd it.
 \begin{acknowledgments}
 % Randos
 We thank Bob Loblaw~\cite{BobLoblaw} for useful discussions.
-% VV
-V.V.~acknowledges support from NSF Grant No. PHY-2309301 and UMass Dartmouth’s
-Marine and Undersea Technology (MUST) Research Program funded by the Office of
-Naval Research (ONR) under Grant No. N00014-23-1–2141.
-% LIGO
-This material is based upon work supported by NSF's LIGO Laboratory which is a
-major facility fully funded by the NSF.
-% GWOSC
-%This research made use of data, software and/or web tools obtained from the
-%Gravitational Wave Open Science Center~\cite{GW_open_science_center}, a service
-%of the LIGO Laboratory, the LIGO Scientific Collaboration and the Virgo
-%Collaboration.
 \end{acknowledgments}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{References}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bibliography{References}
 
 
